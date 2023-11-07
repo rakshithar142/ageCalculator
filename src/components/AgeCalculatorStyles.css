@@ -1,0 +1,87 @@
+.container {
+    background-color: #1a3734ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    width: 30rem;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+h1 {
+    color: #ffffff;
+    height: 90px;
+    background-color: #0A8381;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.calculator-button {
+    /* position: absolute;
+    bottom: 5rem; */
+    margin-top: 1.2rem;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #60ceec 0%, #0A8381 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.calculator-button:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #267085;
+    transform: translateY(-2px);
+}
+
+.calculator-button:active {
+    box-shadow: inset 0px 3px 7px #016783;
+    transform: translateY(2px);
+}
+
+.custom-datepicker{
+    font-size:14px;
+    padding:10px 10px 5px 5px;
+    display:block;
+    width:225px;
+    border:none;
+    border-bottom:1px solid #757575;
+    margin-top: 10px;
+}
+
+.custom-datepicker:focus{
+    outline:none; 
+}
+
+.bottom-area{
+    position: absolute;
+    bottom: 3rem;
+    text-align: center;
+}
+
+.age-result{
+    /* text-shadow: 2px 2px 5px #0A8381; */
+    font-weight: 500;
+}
+
+.error{
+    color: #af2424;
+}
