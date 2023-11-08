@@ -32,8 +32,7 @@ function AgeCalculator() {
     }
 
     const birthDateObj = new Date(birthDate);
-    const ageInMilliseconds = today - birthDateObj;
-
+    
     let years = today.getFullYear() - birthDateObj.getFullYear();
     let months = today.getMonth() - birthDateObj.getMonth();
     let days = today.getDate() - birthDateObj.getDate();
